@@ -1,0 +1,17 @@
+{
+  "route_name": "Prototype Route",
+  "location": "Ellinia",
+  "grade": "V5",
+  "trace": [
+    { "x": 50, "y": 450 },
+    { "x": 80, "y": 400 },
+    { "x": 120, "y": 330 },
+    { "x": 160, "y": 260 }
+  ],
+  "sequence": [
+    { "move": "reach", "hold": "crimp", "modifier": "clean", "timestamp": 0.5 },
+    { "move": "match", "hold": "jug", "modifier": "pause", "timestamp": 1.2 },
+    { "move": "dynamic", "hold": "sloper", "modifier": "retry", "timestamp": 2.4 }
+  ],
+  "notes": "prototype compiler output"
+}

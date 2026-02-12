@@ -1,0 +1,17 @@
+{
+  "route_name": "string",
+  "location": "string",
+  "grade": "string",
+  "trace": [
+    { "x": "number", "y": "number" }
+  ],
+  "sequence": [
+    {
+      "move": "string",
+      "hold": "string",
+      "modifier": "string",
+      "timestamp": "number"
+    }
+  ],
+  "notes": "string"
+}
